@@ -17,6 +17,40 @@ const connect = function() {
     conn.write('Name: AXE')
   });
 
+  
+    // conn.on('connect', () => {
+    //   conn.write('Move: up')
+    // });
+  
+    // setTimeout(() => {
+    //   conn.write('Move: right')
+    // }, 1000);
+  
+    // setTimeout(() => {
+    //   conn.write('Move: right')
+    // }, 1500);
+  
+    // setTimeout(() => {
+    //   conn.write('Move: down')
+    // }, 2000);
+  
+    // setTimeout(() => {
+    //   conn.write('Move: down')
+    // }, 2500);
+  
+    // setTimeout(() => {
+    //   conn.write('Move: down')
+    // }, 2500);
+  
+    // setTimeout(() => {
+    //   conn.write('Move: down')
+    // }, 2500);
+  
+    // setTimeout(() => {
+    //   conn.write('Move: down')
+    // }, 2500);
+  
+
   return conn;
 }
 
