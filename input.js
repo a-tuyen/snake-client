@@ -25,7 +25,7 @@ const handleUserInput = function(key) {
       connection.write('Say: You got owned!');
     } else if (key === 'i') {
       connection.write("Say: I'm gonna get you!?")
-    } else if (key === '') {
+    } else if (key === 'k') {
       connection.write("Say: KABOOOMMM!")
   }
 }
